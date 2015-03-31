@@ -94,7 +94,7 @@ Assuming you have a Brand model:
     class Brand < ActiveRecord::Base
     end
 
-    create_table :brand do |t|
+    create_table :brands do |t|
       t.column :name, :string
     end
 
